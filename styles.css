@@ -1,0 +1,702 @@
+/* *********************GLOBAL STYLES********************** */
+
+body{
+    margin: 0%;
+    padding: 0%;
+    /* font-family: 'Mukta', sans-serif; */
+    /* font-family: 'Oxygen', sans-serif; */
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+h3, ul, h1{
+    margin: 0%;
+    padding: 0%;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+/* ***************LANDING ZONE STYLES***************** */
+
+.landing-zone{
+    background-image: url(./Graphics/image001.png);
+    height: 110vh;
+    background-size: cover;
+    color: white;
+    width: 100%;
+
+}
+.nav{
+    display: flex;
+    box-sizing: border-box;
+    margin-left: 94px;
+    /* margin-right: 200px; */
+    /* width: 1260px; */
+    width: 900%;
+    height: 13vh;
+    position: sticky;
+}
+
+.menu-links{
+    display: flex;
+    list-style: none;
+    color: white;
+    font-size: 14px;
+    justify-content: space-between;
+}
+
+.menu-links a {
+    padding: 0px 8px;
+}
+.nav-button{
+    display: flex;
+    list-style: none;
+    box-sizing: border-box;
+    margin: 0%;
+    font-size: 14px;
+    padding: 0px 20px;
+}
+.links{
+    margin-left: 38px;
+}
+
+.logo{
+    margin-top: 26px;
+    margin-right: 280px;
+}
+.menu{
+    margin-top: 40px;
+    margin-left: -20px;
+}
+
+.standout{
+    color: orange;
+    /* text-decoration: underline; */
+    border-bottom: 1px solid orange;
+    box-sizing: border-box;
+}
+
+.clickable{
+    margin-left: 10px;
+    padding: 15px 30px;
+    font-size: 14px;
+}
+.orange{
+    background-color: orange;
+    margin-left: 15px;
+    border-radius: 5px;
+}
+.blue{
+    background-color: rgb(20, 124, 209);
+    border-radius: 5px;
+    margin-left: 45px;
+}
+.welcome-note {
+    margin-top: 160px;
+    margin-left: 180px;
+}
+.welcome-note p{
+    line-height: 0.8;
+    font-size: 14px;
+}
+
+.click{
+    display: flex;
+    list-style: none;
+    margin-top: 50px;
+}
+
+.each{
+    margin-right: 15px;
+    font-size: 15px;
+}
+
+.extra{
+    background-color: orange;
+    padding: 15px 22px;
+    border-radius: 5px;
+}
+.decor{
+    /* text-decoration: underline; */
+    border-bottom: white solid 1px;
+    padding: 0%;
+}
+
+/* *************************STAMP AREA************************ */
+
+.sponsors{
+    margin-top: 12vh;
+    margin-left: 150px;
+    margin-right: 200px;
+}
+.show-off{
+    display: flex;
+    justify-content: center;
+    margin: 0%;
+}
+
+.show-off p{
+    font-weight: 600;
+}
+.stickers{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* ********************APP FEATURES********************** */
+.live-support{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 265px 0px 160px;
+}
+
+.side-text{
+    flex: 0 0 360px;
+    margin-top: 170px;
+}
+
+.side-text h1{
+    font-size: 32px;
+    padding-bottom: 10px;
+}
+.side-text p{
+    line-height: 1.5;
+    color: rgb(182, 182, 182);
+    font-size: 14px;
+}
+
+.flat{
+    background-color:rgb(20, 124, 209) ;
+    padding: 15px 30px;
+    border-radius: 4px;
+}
+.guide{
+    background-color:white;
+    color: black;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    border-radius: 4px;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 5px 5px #faf9f9;
+    font-weight: 600;
+}
+
+.secured{
+    background-color:white;
+    color: black;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    border-radius: 4px;
+    box-shadow: 1px 1px 5px 5px #faf9f9;
+    font-weight: 600;
+    position: relative;
+    margin-top: -15px;
+}
+.track{
+    background-color:white;
+    color: black;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    border-radius: 4px;
+    box-shadow: 1px 1px 5px 5px #faf9f9;
+    font-weight: 600;
+    position: relative;
+    margin-top: -10px;
+}
+.guide  p{
+    margin: 0%;
+}
+
+.live-call{
+    background-color:blue;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    border-radius: 4px;
+    position: relative;
+    top: -32px;
+    right: -1px;
+    width: 212px;
+    height: 232px;
+}
+.live-call p{
+    margin: 0%;
+}
+
+.top-square{
+    display: grid;
+    grid-template-columns: 170px 170px;
+    grid-template-rows: 200px 200px;
+    margin-top: 120px;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+
+.joint{
+    display: grid;
+    grid-template-rows: 200px 200px;
+}
+
+/* ********************************Trial section************************************** */
+
+.trial-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 200px 50px 100px;
+}
+
+.trial-text{
+    flex: 0 0 250px;
+    margin-top: 140px;
+    margin-left: 35px;
+    height: 300px;
+}
+
+.trial-text h1{
+    font-size: 32px;
+}
+.trial-text p{
+    line-height: 1.8;
+    margin: 0px;
+    color: rgb(182, 182, 182);
+    font-size: 15px;
+}
+
+.trial-button{
+    background-color:rgb(20, 124, 209) ;
+    padding: 15px 33px;
+    border-radius: 4px;
+}
+
+/* *************************************GOOGLE PLAY AREA****************************************** */
+
+.google-space{
+    background-color: blue;
+    height: 500px;
+}
+.google-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 200px 0px 150px;
+}
+
+.google-text{
+    flex: 0 0 350px;
+    margin-top: 120px;
+    margin-left: 35px;
+    height: 300px;
+    color:white;
+}
+
+.google-text h1{
+    font-size: 32px;
+    margin-top: 0px;
+    position: relative;
+    top: -12px;
+}
+.google-text p{
+    line-height: 1.5;
+    font-size: 14.5px;
+    margin: 0px;
+    color:whitesmoke;
+}
+
+.google-image{
+    margin-top: 50px;
+}
+
+.google-button{
+    background-color:rgb(20, 124, 209) ;
+    padding: 15px 25px;
+    border-radius: 4px;
+}
+
+.google-button img{
+    position: relative;
+    bottom: -6px;
+}
+
+.orange-play{
+    background-color: orange;
+    margin-right: 8px;
+}
+
+/* **************************How to use section**************************** */
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.words{
+    width: 600px;
+}
+.words p{
+    margin: 0px;
+    line-height: 2;
+    font-size: 14px;
+    color: rgb(182, 182, 182);
+}
+.words h1{
+    margin-bottom: 20px;
+}
+
+.bent-arrow{
+    display: flex;
+    justify-content: center;
+    margin: 80px 190px 0px 185px;
+    font-size: 17px;
+}
+
+.install{
+    width: 1400px;
+}
+.profile{
+    width: 1300px;
+}
+.features{
+    width: 1500px;
+}
+
+/* *****************STATISTICS SECTION******************* */
+
+.statistics-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 200px 0px 200px;
+}
+
+.statistics-text{
+    flex: 0 0 340px;
+    margin-top: 110px;
+    margin-left: 35px;
+    height: 300px;
+}
+
+.statistics-text h1{
+    font-size: 32px;
+}
+.statistics-text p{
+    line-height: 2;
+    margin: 0px;
+    color: rgb(182, 182, 182);
+    font-size: 13px;
+}
+
+.statistics-button{
+    background-color:rgb(20, 124, 209) ;
+    padding: 15px 33px;
+    border-radius: 4px;
+}
+
+/* ************************PRICING SECTION*************************** */
+
+
+.blue-background{
+    background-color: blue;
+    height: 750px;
+}
+
+.pricing{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 62px;
+}
+
+.pricing h1{
+    font-size: 30px;
+    margin-bottom: 25px;
+    margin-top: 100px;
+    color: white;
+}
+
+.line{
+    width: 600px;
+}
+.line p{
+    margin: 0px;
+    line-height: 2;
+    font-size: 14px;
+    color: white;
+}
+
+.flexible{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    color: white;
+}
+.flexible p{
+    margin: 0%;
+}
+
+.first{
+    border: 1.5px solid rgb(182, 182, 182);
+    border-radius: 4px;
+    height: 360px;
+    width: 310px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.white{
+    border-radius: 4px;
+    height: 372px;
+    width: 310px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: white;
+    border: 1.5px solid white;
+    color: black;
+    position: relative;
+    top: -16px;
+    bottom: -16px;
+    padding: 8px 0px;
+}
+
+.individual{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1.5px solid rgb(182, 182, 182);
+    border-radius: 8px;
+    width: 185px;
+    height: 190px;
+    margin-left: 60px;
+}
+.blue-ring{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1.5px solid blue;
+    border-radius: 8px;
+    width: 185px;
+    height: 190px;
+    margin-left: 60px;
+}
+
+.orange-button{
+    background-color: orange;
+    padding: 15px 25px;
+    border-radius: 4px;
+    margin-left: 71px;
+    width: 120px;
+    font-size: 12px;
+}
+
+/* <!-- **************************REVIEW AREA****************************** --> */
+
+.review-container{
+    margin: 85px 120px 0px 120px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.strange{
+    box-shadow: 1px 1px 5px 4px #faf9f9;
+    width: 160px;
+    padding: 15px 0px;
+    position: relative;
+    top: -15px;
+}
+.review-container p{
+    text-align: center;
+    margin: 0px;
+    position: relative;
+    font-weight: 600;
+}
+
+.outro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 85px;
+}
+
+.outro p{
+    margin: 0px;
+    line-height: 2;
+    font-size: 14px;
+    color: rgb(182, 182, 182);
+}
+
+/* ***************************TESTIMONIAL AREA****************************** */
+.testimonial-container{
+    margin-bottom: 480px;
+}
+.testimonial-text{
+    display: flex;
+    justify-content: center;
+    margin: 0px 120px 50px 135px;
+    /* color: rgb(68, 65, 65); */
+}
+
+.text-width{
+    flex: 0 0 400px;
+    line-height: 2;
+}
+
+.claire{
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+/* *****************************QUESTIONS******************************** */
+
+.ash-background{
+    background-color: #faf9f9;
+    margin:0px 210px 0px 210px;
+    height: 700px;
+    border-radius: 8px;
+    position: relative;
+    top: -390px;
+}
+
+.question-button{
+    background-color: orange;
+    padding: 15px 45px;
+    border-radius: 4px;
+    margin: 30px 400px 0px 340px;
+    width: 135px;
+    font-size: 14px;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: 85px;
+    grid-row-gap: 20px;
+    margin:100px 80px 0px 80px;
+}
+.grid-container p{
+    font-size: 13.5px;
+    line-height: 1.7;
+    color: grey;
+}
+.grid-container h1{
+    font-size: 18px;
+}
+
+/* ********************************FOOT NOTE*********************************** */
+.spam{
+    background: blue;
+    height: 107vh;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 210px 0px 210px;
+    color: white;
+    position: relative;
+    bottom: 300px;
+}
+
+.latest-news{
+    flex: 0 0 200px;
+}
+
+/* .contact-us{
+    margin-right: 200px;
+} */
+.contact-us h1{
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.contact-us p{
+    font-size: 12px;
+}
+.contact-us img{
+    margin-right: 2px;
+    height:10px;
+    border: 1px solid white;
+    padding: 7px;
+    border-radius: 50%;
+}
+
+.latest-news p{
+    font-size: 13.5px;
+}
+.latest-news h1{
+    font-size: 20px;
+    margin-bottom: 33px;
+}
+.saas{
+    flex: 0 0 300px;
+    color: white;
+}
+
+.saas button:hover{
+    background-color: rgb(253, 196, 90);
+}
+
+.saas h1{
+    font-size: 30px;
+    margin-bottom: 33px;
+    position: relative;
+    top: -9px;
+}
+
+input{
+    width:300px;
+    height: 46px;
+    background-color: rgb(80, 80, 230);
+    border: none;
+    border-radius: 4px;
+    color: white;
+    margin-bottom: 28px;
+    position: relative;
+    top: -6px;
+}
+::placeholder{
+    color: white;
+}
+
+button{
+    background-color: orange;
+    width: 170px;
+    height: 46px;
+    border-radius: 4px;
+    font-weight: bolder;
+    margin-right: 40px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+}
+
+/* ************************FOOTER*************************** */
+.wrap-back{
+    background-color: rgb(4, 4, 41);
+    height: 60px;
+}
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 205px 0px 200px;
+}
+
+.wrapper p{
+    font-size: 11px;
+    color: white;
+    margin-top: 23px;
+}
+.wrapper img{
+    padding: 6px;
+    border-radius: 50%;
+    border: 1px solid white;
+    margin-top: 12px;
+}
