@@ -205,7 +205,7 @@ a{
     box-shadow: 1px 1px 5px 5px #faf9f9;
     font-weight: 600;
     position: relative;
-    margin-top: -10px;
+    top: -13px;
 }
 .guide  p{
     margin: 0%;
@@ -233,8 +233,8 @@ a{
     grid-template-columns: 170px 170px;
     grid-template-rows: 200px 200px;
     margin-top: 120px;
-    grid-column-gap: 20px;
-    grid-row-gap: 20px;
+    grid-column-gap: 25px;
+    grid-row-gap: 38px;
 }
 
 .joint{
