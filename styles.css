@@ -205,7 +205,8 @@ a{
     box-shadow: 1px 1px 5px 5px #faf9f9;
     font-weight: 600;
     position: relative;
-    top: -13px;
+    top: -14px;
+    height: 216px;
 }
 .guide  p{
     margin: 0%;
