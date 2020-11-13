@@ -8,6 +8,11 @@ body{
     font-family: 'Josefin Sans', sans-serif;
 }
 
+html{
+    margin: 0%;
+    padding: 0%;
+}
+
 h3, ul, h1{
     margin: 0%;
     padding: 0%;
@@ -33,7 +38,7 @@ a{
     margin-left: 94px;
     /* margin-right: 200px; */
     /* width: 1260px; */
-    width: 900%;
+    /* width: 900%; */
     height: 13vh;
     position: sticky;
 }
