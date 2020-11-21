@@ -354,6 +354,9 @@ a{
 .words{
     width: 600px;
 }
+.words p:last-child{
+    text-align: center;
+}
 .words p{
     margin: 0px;
     margin-left: 22px;
@@ -362,9 +365,9 @@ a{
     color: rgb(182, 182, 182);
 }
 
-word2{
+/* word2{
     text-align: center;
-}
+} */
 /* .words h1{
     margin-bottom: 20px;
 } */
@@ -4901,17 +4904,18 @@ button{
         width: 490px;
         font-size: .4rem;
     }
+
+    .words p:last-child{
+        text-align: left;
+    }
     .words p{
         margin: 0px;
         margin-left: 80px;
         line-height: 2;
-        font-size: .4rem;
+        font-size: .3rem;
         color: rgb(182, 182, 182);
     }
-    word2{
-        text-align: center;
-    }
-
+    
     .bent-arrow{
         display: flex;
         justify-content: center;
@@ -4952,17 +4956,17 @@ button{
     .install p{
         margin-left: 30px;
         font-weight: 600;
-        font-size: .7rem;
+        font-size: .6rem;
     }
     .profile p{
         margin-left: 40px;
         font-weight: 600;
-        font-size: .7rem;
+        font-size: .6rem;
     }
     .features p{
         margin-left: 40px;
         font-weight: 600;
-        font-size: .7rem;
+        font-size: .6rem;
     }
     .profile{
         display: flex;
