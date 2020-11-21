@@ -4695,6 +4695,10 @@ button{
 
 @media screen and (max-width:375px){
 
+    body{
+        max-width: 376px;
+    }
+
     .landing-zone{
         background-image:url(./Graphics/image001.png);
         background-color: blue;
@@ -4706,6 +4710,7 @@ button{
 
     .welcome-note{
         margin-top: 8rem;
+        width: 300px;
     }
     .blue{
         background-color: rgb(20, 124, 209);
@@ -4783,7 +4788,7 @@ button{
     }
     
     .side-text{
-        flex: 0 0 110px;
+        flex: 0 0 130px;
         margin-top: 120px;
         margin-right: 0rem;
         margin-left: 0rem;
