@@ -4696,12 +4696,11 @@ button{
 @media screen and (max-width:375px){
 
     body{
-        max-width: 376px;
+        max-width: 100vw;
     }
 
     .landing-zone{
         background-image:url(./Graphics/image001.png);
-        background-color: blue;
         height: 500px;
         width: 376px;
         background-size: cover;
@@ -5331,7 +5330,7 @@ button{
     }
     
     input{
-        width: 120px;
+        width: 110px;
         height: 25px;
         background-color: rgb(80, 80, 230);
         border: none;
@@ -5348,7 +5347,7 @@ button{
     
     button{
         background-color: orange;
-        width: 125px;
+        width: 115px;
         height: 25px;
         border-radius: 4px;
         font-weight: bolder;
