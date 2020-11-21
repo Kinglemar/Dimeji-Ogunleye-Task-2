@@ -361,6 +361,10 @@ a{
     font-size: 14px;
     color: rgb(182, 182, 182);
 }
+
+word2{
+    text-align: center;
+}
 /* .words h1{
     margin-bottom: 20px;
 } */
@@ -4899,10 +4903,13 @@ button{
     }
     .words p{
         margin: 0px;
-        margin-left: 60px;
+        margin-left: 80px;
         line-height: 2;
         font-size: .4rem;
         color: rgb(182, 182, 182);
+    }
+    word2{
+        text-align: center;
     }
 
     .bent-arrow{
