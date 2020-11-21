@@ -4712,6 +4712,10 @@ button{
         margin-top: 8rem;
         width: 300px;
     }
+
+    .each{
+        font-size: 10px;
+    }
     .blue{
         background-color: rgb(20, 124, 209);
         border-radius: 5px;
