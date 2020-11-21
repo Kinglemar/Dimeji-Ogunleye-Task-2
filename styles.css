@@ -3865,8 +3865,8 @@ button{
         width: 300px;
         margin-top: 14rem;
     }
-    .each li{
-        font-size: 12px;
+    .each{
+        font-size: .65rem;
     }
 
 
@@ -4010,7 +4010,7 @@ button{
     
     .each{
         margin-right: 15px;
-        font-size: 0.8rem;
+        font-size: 0.6rem;
     }
     
     .extra{
