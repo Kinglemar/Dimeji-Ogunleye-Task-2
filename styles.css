@@ -4894,11 +4894,12 @@ button{
     }
     
     .words{
-        width: 470px;
+        width: 490px;
+        font-size: .5rem;
     }
     .words p{
         margin: 0px;
-        margin-left: 70px;
+        margin-left: 60px;
         line-height: 2;
         font-size: .5rem;
         color: rgb(182, 182, 182);
@@ -4944,17 +4945,17 @@ button{
     .install p{
         margin-left: 30px;
         font-weight: 600;
-        font-size: .8rem;
+        font-size: .7rem;
     }
     .profile p{
         margin-left: 40px;
         font-weight: 600;
-        font-size: .8rem;
+        font-size: .7rem;
     }
     .features p{
         margin-left: 40px;
         font-weight: 600;
-        font-size: .8rem;
+        font-size: .7rem;
     }
     .profile{
         display: flex;
