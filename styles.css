@@ -4895,13 +4895,13 @@ button{
     
     .words{
         width: 490px;
-        font-size: .5rem;
+        font-size: .4rem;
     }
     .words p{
         margin: 0px;
         margin-left: 60px;
         line-height: 2;
-        font-size: .5rem;
+        font-size: .4rem;
         color: rgb(182, 182, 182);
     }
 
